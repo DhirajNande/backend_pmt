@@ -2,10 +2,10 @@
 version: '3.8'
 services:
  authbackend:
-  image: backend_pmt-dev 
+  image: backend_pmtdev 
   ports:
    - 8080:8080
-  container_name: pmt_backend
+  container_name: pmt_backenddev
   deploy:
     replicas: 1
   restart: always
