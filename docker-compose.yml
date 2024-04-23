@@ -1,7 +1,7 @@
 ---
-version: '3.7'
+version: '3.8'
 services:
- authbackend:
+ authbackenddev:
   image: backend_pmtdev 
   ports:
    - 8080:8080
